@@ -1,0 +1,13 @@
+Package: vanElteren
+Type: Package
+Title: Sample size calculation for the van Elteren test
+Version: 0.1.0
+Author: Kevin Kunzmann
+Maintainer: Kevin Kunzmann <kunzmann@imbi.uni-heidelberg.de>
+Description: Implementation of the sample size calculation procedure 
+    suggested by Zhao et al. in "Sample Size Calculation for the van Elteren Test
+    Adjusting for Ties", Journal of Biopharmaceutical Statistics, 18:1112–1119, 2008
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
