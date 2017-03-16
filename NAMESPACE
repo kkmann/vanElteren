@@ -1,1 +1,2 @@
+importFrom("stats", "qnorm")
 export("power.vanElteren")

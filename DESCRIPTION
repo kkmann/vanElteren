@@ -6,8 +6,9 @@ Author: Kevin Kunzmann
 Maintainer: Kevin Kunzmann <kunzmann@imbi.uni-heidelberg.de>
 Description: Implementation of the sample size calculation procedure 
     suggested by Zhao et al. in "Sample Size Calculation for the van Elteren Test
-    Adjusting for Ties", Journal of Biopharmaceutical Statistics, 18:1112–1119, 2008
-License: MIT
+    Adjusting for Ties", Journal of Biopharmaceutical Statistics, 18:1112–1119, 2008.
+License: file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
+Imports: assertthat
