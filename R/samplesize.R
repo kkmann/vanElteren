@@ -1,6 +1,6 @@
 #' Compute required overall sample size for van Elteren test
 #'
-#' \code{power.vanElteren} uses the procedure suggested by Zhao et al. [1] to
+#' \code{samplesize.vanElteren} uses the procedure suggested by Zhao et al. [1] to
 #' compute the required overall sample size for a van Elteren test
 #' comparing two groups A and B within strata [2].
 #'
@@ -44,10 +44,10 @@
 #' strata_frac_alt <- array(c(
 #'     strata_frac_alt_BIFl28, strata_frac_alt_BIFgeq28
 #' ), dim = c(2, n_cat, n_strata))
-#' power.vanElteren(strata_frac, treatment_frac, strata_frac_alt, alpha, beta) # should be 228
+#' samplesize.vanElteren(strata_frac, treatment_frac, strata_frac_alt, alpha, beta) # should be 228
 #'
 #' @export
-power.vanElteren <- function(
+samplesize.vanElteren <- function(
     strata_fractions,
     treatment_fractions,
     strata_fractions_alternative,

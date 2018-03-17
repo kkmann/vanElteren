@@ -1,2 +1,2 @@
 importFrom("stats", "qnorm")
-export("power.vanElteren")
+export("samplesize.vanElteren")
