@@ -18,6 +18,9 @@ cache:
 build_script:
   - travis-tool.sh install_deps
 
+r_github_packages:
+  - r-lib/covr
+
 test_script:
   - travis-tool.sh run_tests
 
@@ -43,3 +46,6 @@ artifacts:
 
   - path: '\*_*.zip'
     name: Bits
+
+after_success:
+  - Rscript -e 'covr::codecov()'
