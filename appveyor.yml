@@ -17,7 +17,7 @@ cache:
 
 build_script:
   - travis-tool.sh install_deps
-  - Rscript -e "install.packages('covr')"
+  - Rscript -e "install.packages('covr', repo = 'https://cloud.r-project.org')"
 
 
 test_script:
